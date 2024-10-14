@@ -86,21 +86,29 @@
 //          practice
 // alert("Hello!")
 // practice Q 2
-var score = 95;
-var grade;
-if (score >= 90 && score <= 100) {
-    grade = "A";
+// let score = 95
+// let grade
+// if (score >= 90 && score <= 100){
+//     grade = "A";
+// } else if (score >= 70 && score <= 89){
+//     grade = "B"
+// } else if (score >= 50 && score <= 69){
+//     grade = "C"
+// } else if (score >= 40 && score <= 49){
+//     grade = "D"
+// } else {
+//     grade = "Fail"
+// }
+// console.log("your grade was", grade)
+// loops
+// for loop
+// for (let i = 1; i <= 5; i++){
+//     console.log(i)
+// }
+// for (let i = 1; i <= 50; i++){
+//     console.log(i)
+// }
+// infinite loop  (never ending)
+for (var i = 1; i >= 0; i++) {
+    console.log(i);
 }
-else if (score >= 70 && score <= 89) {
-    grade = "B";
-}
-else if (score >= 50 && score <= 69) {
-    grade = "C";
-}
-else if (score >= 40 && score <= 49) {
-    grade = "D";
-}
-else {
-    grade = "Fail";
-}
-console.log("your grade was", grade);
