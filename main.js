@@ -109,6 +109,55 @@
 //     console.log(i)
 // }
 // infinite loop  (never ending)
-for (var i = 1; i >= 0; i++) {
-    console.log(i);
+// for(let i = 1; i >= 0; i++){
+//     console.log(i)
+// }
+// while loop
+// jo kam hum for loop sai karsakty hain wo kam while sa bhi hosakta hai
+// let i = 1
+// while(i <= 10){
+//     console.log(i)
+//     i++
+// }
+// let i = 1
+// while(i <= 10){
+//     console.log("Hamza")
+//     i++
+// }
+// do while loop
+// do while loop aik bar lazmi run hota hai
+// let i = 1
+// do {
+//     console.log(i)
+//     i++
+// } while (i <= 8);
+// for-of loop
+// for-of loop humy string ki value ka aik aik word print kar kai dega
+// and is ko iterator bhi kehty hai
+// let string = "Hamza"
+// for(let i of string){
+//     console.log(i)
+// }
+// for-in loop 
+//for in loop ko hum object and array ka liay bhi use karty hai
+// for in loop humy object ma keys print kar kai dega
+// let obj = {
+//     name: "Hamza",
+//     age: 21,
+//     cgpa: 3.5,
+//     isPass: true
+// }
+// for(let i in obj){
+//     console.log(i)
+// }
+// practice 
+for (var i = 0; i <= 100; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}
+for (var i = 0; i <= 100; i++) {
+    if (i % 2 !== 0) {
+        console.log(i);
+    }
 }
